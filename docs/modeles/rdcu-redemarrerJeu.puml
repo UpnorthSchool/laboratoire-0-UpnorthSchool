@@ -1,9 +1,9 @@
 @startuml RDCU redémarrerJeu
 title RDCU pour redémarrerJeu
-participant " :JeudeDes" as D
-participant "joueurs:\n Map<String,Joueur>" as J
+participant " :JeuDeDes" as D
+participant "joueurs: \n Map<String, Joueur>" as J
  
--> D : redémarrerJeu()
+-> D : redemarrerJeu()
 note right
    selon Contrôleur
    (JeuDeDes est
