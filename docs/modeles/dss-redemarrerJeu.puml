@@ -1,4 +1,5 @@
 @startuml Diagramme pour scénario Redémarrer
+
 title Diagramme pour le scénario Redémarrer
 actor " :Joueur" as J
 participant " :Système" as S

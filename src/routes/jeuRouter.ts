@@ -106,6 +106,13 @@ export class JeuRouter {
     }
   }
 
+
+/*
+redemarrer le jeu
+**/
+  public redemarrerJeu(req: Request, res: Response, next: NextFunction){
+  }
+
   /**
      * Take each handler, and attach to one of the Express.Router's
      * endpoints.
