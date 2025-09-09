@@ -1,14 +1,7 @@
 @startuml Diagramme pour scénario Redémarrer
-left to right direction
-actor Joueur as J
-skinparam style strictuml
-skinparam packageStyle rect
-skinparam backgroundcolor transparent
-skinparam defaultfontname Verdana
-rectangle "Système" {
-  (Jouer aux dés) as JP #powderblue
-  (Redémarrer) as R #powderblue
-  J -- JP
-  J -- R
-}
+title Diagramme pour le scénario Redémarrer
+actor " :Joueur" as J
+participant " :Système" as S
+ 
+J -> S : redémarrerJeu()
 @enduml
