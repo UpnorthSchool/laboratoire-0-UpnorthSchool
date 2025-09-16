@@ -12,5 +12,6 @@ Les Systèmes d'intelligence artificielle générative (SIAG) font des réponses
 Plus tard dans le semestre, **si votre équipe porte un manque de performance à l'attention de la personne enseignante, votre réponse et celles de toute l'équipe seront lues avec un grand intérêt pour voir si vous avez réellement lu l'essai et intériorisé ce qu'il a communiqué**.
 
 Mettez votre réponse (environ 300 mots) ci-dessous:
-
+J'ai eu la chance d'avoir un mollassons dans une équipe. Ne sachant pas bien programmer de mon coté, j'ai du redoublé d'effort pour réussir le code.
+J'ai été chanceux sur le fait que j'avais le temps pour effectuer les lab et mon prof de lab était nice, mais à refaire j'aimerais être dans une equipe qui apprécide mon travail et qui m'aide `avancé celui-ci
 ---
