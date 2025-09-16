@@ -82,4 +82,12 @@ export class JeuDeDes {
         return JSON.stringify(Array.from(this._joueurs.values()));
     }
 
+    public redemarrerJeu(): void {
+
+        this._joueurs.clear();
+       
+        // ne pas retourner l'objet de la couche domaine
+
+    }
+
 }
