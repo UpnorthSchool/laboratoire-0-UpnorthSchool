@@ -110,7 +110,7 @@ export class JeuRouter {
   /*
   redemarrer le jeu
   **/
-  public redemarrerJeu(req: Request, res: Response, next: NextFunction){
+  public redemarrerJeu(req: Request, res: Response, next: NextFunction) {
 
         try {
       // Invoquer l'opération système (du DSS) dans le contrôleur GRASP

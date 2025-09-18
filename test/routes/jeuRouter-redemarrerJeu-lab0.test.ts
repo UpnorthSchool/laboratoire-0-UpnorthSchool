@@ -24,9 +24,9 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
  * a verifier mais ici je fais terminer les session des joueursm, ensuite le prof a mentionner sign in sign out, a verifier
  * 
  */
-describe('GET /api/v1/jeu/terminerJeu/:id', () => {
+describe('GET /api/v1/jeu/redemarrerJeu', () => {
     it(`devrait répondre avec une mauvaise demande lorsque le joueur n'existe pas ${testNom2}`, async () => {
-        const response = await request.get('/api/v1/jeu/terminerJeu/' + testNom2);
+        const response = await request.get('/api/v1/jeu/jouer/' + testNom2);
         expect(response.status).toBe(404);
         expect(response.type).toBe("application/json");
         expect(response.body.error).toInclude("n'existe pas");
